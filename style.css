@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top right,rgba(255, 255, 255, 0.8), rgba(0, 0, 255, 0.8), rgba(255, 0, 0, 0.8));
+}
+
+.mainContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.legoImage{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mainTitle{
+    margin: 10px;
+    background-color: rgba(226, 8, 8, 0.586);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.subTitle{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(255, 193, 7);
+    border-radius: 5px;
+}
+
+.legoImage{
+    height: 100px;
+    width: 150px;
+}
+
+.tileContainer{
+    height: 40%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3px;
+    margin:10px;
+}
+
+.legoTypeTile{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legoTypeTile{
+    background-position: 30% 30%;
+    background-size: cover;
+}
+
+.btn-warning{
+    opacity: 0.8;
+    transition: transform 1s;
+}
+
+.btn-warning:hover{
+    transform:scale(1.2)
+}
+
+#starWarsTile{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/0/0a/Lego_Star_Wars_The_Skywalker_Saga.jpg");
+    /* background-size: 100% 100%; */
+}
+
+#lOTRTile{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYWUyOGRlYjEtNWI0ZS00YTZiLTkxOWYtMWE1NTU1ZjMwMzFmXkEyXkFqcGc@._V1_.jpg");
+}
+
+#marvelTile{
+    background-image: url("https://image.api.playstation.com/vulcan/img/rnd/202110/2120/Ae9LBrs3xQslaEkUssgev0k7.png?w=440");
+}
+
+#dcTile{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU1XQ5JKLA2O2uxw0T2dh5YVLmgqTv4nYCA&s");
+}
+
+#adultTile{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkjftEYFrTSSEELzBuHCaDsnGLpCfA8zyrw&s");
+}
+
+#kidsTile{
+    background-image: url("https://tobeme.com.au/wp-content/uploads/2019/09/Order-3222-image-2.jpg");
+}
+
+.subPageContainer {
+    padding: 10px;
+    margin: 10px;
+}
+
+.subPageContainer h2{
+    margin-top: 10px;
+}

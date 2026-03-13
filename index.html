@@ -1,0 +1,55 @@
+<!--TODO: Add hover effect on button so it expands on hover/changes colour. DONE -->
+<!-- TODO: add transition on hover. DONE -->
+ <!-- TODO: add a home page link to each sub route page -->
+  <!-- TODO: List top 3 legos on each sub page  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Lego</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <img class="legoImage" src="Lego.jpg" alt="">
+        <h2 class="mainTitle">Jack's LegoLand</h2>
+        <h3 class="subTitle">Choose your favourite area of lego</h3>
+        <div class="tileContainer">
+            <div id="starWarsTile" class="legoTypeTile">
+                <a href="./legoAreas//starWars.html">
+                    <button type="button" class="btn btn-warning">Star Wars</button>
+                </a>
+            </div>
+            <div id="lOTRTile" class="legoTypeTile">
+                <a href="./legoAreas/LOTR.html">
+                    <button type="button" class="btn btn-warning">Lord of the Rings</button>
+                </a>
+            </div>
+            <div id="marvelTile" class="legoTypeTile">
+                <a href="./legoAreas/Marvel.html">
+                    <button type="button" class="btn btn-warning">Marvel</button>
+                </a>
+            </div>
+            <div id="dcTile" class="legoTypeTile">
+                <a href="./legoAreas/DC.html">
+                    <button type="button" class="btn btn-warning">DC</button>
+                </a>
+            </div>
+            <div id="adultTile" class="legoTypeTile">
+                <a href="./legoAreas/adults.html">
+                    <button type="button" class="btn btn-warning">18+</button>
+                </a>
+            </div>
+            <div id="kidsTile" class="legoTypeTile">
+                <a href="./legoAreas/kids.html">
+                    <button type="button" class="btn btn-warning">Kids</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
